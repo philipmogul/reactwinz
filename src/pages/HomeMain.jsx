@@ -1,6 +1,6 @@
 import MovieCard from "../components/MovieCard";
 
-function Home() {
+function HomeMain() {
 
     // This is a simple home page component
     // Js codes and functions can be added here
@@ -34,4 +34,4 @@ function Home() {
 }
 
 // Exporting the HomePage component to be used in other files
-export default Home;
+export default HomeMain;

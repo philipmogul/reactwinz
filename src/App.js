@@ -1,7 +1,7 @@
 //import logo from './logo.svg';
 //import './App.css';
 import MovieCard from "./components/MovieCard";
-import Home from "./pages/Home"; // Importing the Home component
+import HomeMain from "./pages/HomeMain";
 
 /*
 REMEMBER !!! ALL COMPONENTS BEGIN WITH A CAPITAL LETTER
@@ -18,7 +18,7 @@ REMEMBER !!! ALL COMPONENTS BEGIN WITH A CAPITAL LETTER
 function App() {
   return ( /* This allows inclusion of multiple html components */
     <>
-    <Home />
+    <HomeMain />
     </>
   );
 }
