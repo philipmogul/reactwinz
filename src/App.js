@@ -1,27 +1,19 @@
 //import logo from './logo.svg';
 //import './App.css';
+import MovieCard from "./components/MovieCard";
 
 
 function App() {
   return ( /* This allows inclusion of multiple html components */
     <>
-    <Text />
     <MyName />
+    <Greeting name="PHIL_VALUE_NEM" />
+    <MovieCard movie={{ title: "Inception", release_date: "2010" }} />
     </>
   );
 }
 
 // Creating components in React
-// Text Component 
-function Text(){
-  return (
-    <div>
-      <h1>Welcome to My App</h1>
-      <p>This is a simple React application.</p>
-    </div>
-  );
-}
-
 // My Name Component
 function MyName() {
   return (
@@ -32,5 +24,15 @@ function MyName() {
   );
 }
 
+// Props => Properties in components we want to pass data to components
+// Example of a component that takes props
+function Greeting(props) {
+  return (
+    <div>
+      <h2>Hello, {props.name}!</h2>
+      <p>Welcome to the React world!</p>
+    </div>
+  );
+}
 
 export default App;
