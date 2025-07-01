@@ -21,7 +21,6 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/home" element={<HomeMain />} />
         <Route path="/movies" element={<Movies />} />
         <Route path="/accountsettings" element={<AccountSettings />} />
         <Route path="/about" element={<About />} />
