@@ -1,18 +1,11 @@
 //import logo from './logo.svg';
 //import './App.css';
 // import MovieCard from "./components/MovieCard";
+import './bootstrap/css/bootstrap.min.css';
+import './bootstrap/js/bootstrap.min.js';
 import HomeMain from "./pages/HomeMain";
 
 /*
-WORK ON IMAGES PAGE 
-REPLACE REACTWINZ LINK WITH AN IMAGE LOGO 
-INCLUDE BOOTSTRAP CSS AND JS FILES IN PROJECT 
-PUT IN A MAIN SECTION AND FOOTER IN ALL PAGES 
-COMMIT AS WORKING WITH IMAGES PART 2
-PUSH 
-OPEN IN YOUTUBE: WORKING WITH REACTJS AND DATABASES AND SIGNUP AND LOGIN 
-
-
 REMEMBER !!! ALL COMPONENTS BEGIN WITH A CAPITAL LETTER
 */
 
