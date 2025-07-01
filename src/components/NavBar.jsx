@@ -1,11 +1,16 @@
 import { Link } from "react-router-dom";
+import logo from "../images/reactjs.jpeg"; // Importing the logo image
 
 function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
-        <img src="../images/reactjs.jpeg" alt="React Logo" style={{ width: "30px", height: "30px", marginLeft: "10px" }} />
+        <img
+          src={logo}
+          alt="React logo consisting of a blue atom symbol with three elliptical orbits, displayed on a white background in a navigation bar. The logo conveys a modern and energetic tone"
+          style={{ width: "90px", height: "60px", margin: "10px" }}
+        />
         </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
