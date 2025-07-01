@@ -11,9 +11,9 @@ import Profile from './pages/Profile';
 import Login from './pages/Login';
 import SignUp from './pages/SignUp';
 import Sitemap from './pages/Sitemap';
-import HomeMain from './pages/HomeMain';
 import Movies from './pages/Movies';  
-import Images from './pages/Images';  
+import Images from './pages/Images'; 
+import NoPage from './pages/NoPage'; 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -31,6 +31,9 @@ root.render(
         <Route path="/sitemap" element={<Sitemap />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
+        <Route path='*' element={<NoPage />} />
+        {/* Catch-all route for 404 errors. Asterisk (*) indicates if anything types in url does not 
+        match above, then go to 404 page*/}
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
