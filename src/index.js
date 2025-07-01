@@ -13,6 +13,7 @@ import SignUp from './pages/SignUp';
 import Sitemap from './pages/Sitemap';
 import HomeMain from './pages/HomeMain';
 import Movies from './pages/Movies';  
+import Images from './pages/Images';  
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -27,9 +28,10 @@ root.render(
         <Route path="/favs" element={<Favorites />} />
         <Route path="/landing" element={<LandingPage />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/images" element={<Images />} />
+        <Route path="/sitemap" element={<Sitemap />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
-        <Route path="/sitemap" element={<Sitemap />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

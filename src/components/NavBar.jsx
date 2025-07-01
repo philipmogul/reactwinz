@@ -4,7 +4,10 @@ function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/">ReactWinz</Link>
+        <Link className="navbar-brand" to="/">
+        React
+          {/* <img src={{"../images/reactjs.jpeg"}} /> */}
+        </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -29,13 +32,16 @@ function NavBar() {
               <Link style={{ listStyle: "inline" }} className="nav-link" to="/profile">Profile</Link>
             </li>
             <li className="nav-item">
+              <Link style={{ listStyle: "inline" }} className="nav-link" to="/images">Images</Link>
+            </li>
+            <li className="nav-item">
+              <Link style={{ listStyle: "inline" }} className="nav-link" to="/sitemap">Sitemap</Link>
+            </li>
+            <li className="nav-item">
               <Link style={{ listStyle: "inline" }} className="nav-link" to="/login">Login</Link>
             </li>
             <li className="nav-item">
               <Link style={{ listStyle: "inline" }} className="nav-link" to="/signup">Sign Up</Link>
-            </li>
-            <li className="nav-item">
-              <Link style={{ listStyle: "inline" }} className="nav-link" to="/sitemap">Sitemap</Link>
             </li>
           </ul>
         </div>
