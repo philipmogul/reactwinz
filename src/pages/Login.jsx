@@ -1,8 +1,10 @@
+import NavBar from "../components/NavBar";  
 
 function Login() {
   return (
-    <div className="login-page">  
-        <h1>Login Page</h1>
+    <div className="login-page">
+      <NavBar />
+      <h1>Login Page</h1>
         <form>
           <div>
             <label htmlFor="username">Username:</label>

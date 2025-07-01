@@ -1,4 +1,5 @@
 import MovieCard from "../components/MovieCard";
+import NavBar from "../components/NavBar";
 
 function HomeMain() {
 
@@ -18,6 +19,7 @@ function HomeMain() {
 
   return (
     <div className="home-page">
+      <NavBar />
       <h1>Welcome to the Home Page</h1><hr />
         <form onSubmit={handleSearch}>
           <input type="text" placeholder="Search for movies..." className="search-input" />

@@ -1,7 +1,8 @@
 //import logo from './logo.svg';
 //import './App.css';
-import MovieCard from "./components/MovieCard";
+// import MovieCard from "./components/MovieCard";
 import HomeMain from "./pages/HomeMain";
+import NavBar from './components/NavBar';
 
 /*
 REMEMBER !!! ALL COMPONENTS BEGIN WITH A CAPITAL LETTER
