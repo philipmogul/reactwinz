@@ -1,8 +1,7 @@
 //import logo from './logo.svg';
 //import './App.css';
 // import MovieCard from "./components/MovieCard";
-import './bootstrap/css/bootstrap.min.css';
-import './bootstrap/js/bootstrap.min.js';
+// import './bootstrap/css/bootstrap.min.css';
 import HomeMain from "./pages/HomeMain";
 
 /*
