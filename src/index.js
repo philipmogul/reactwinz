@@ -14,6 +14,7 @@ import Sitemap from './pages/Sitemap';
 import Movies from './pages/Movies';  
 import Images from './pages/Images'; 
 import NoPage from './pages/NoPage'; 
+import 'bootstrap/dist/css/bootstrap.min.css'; // Importing Bootstrap CSS
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
